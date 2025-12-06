@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: "titulo";
+    src: url("fonts/VIKING-N.TTF");
+}
+@font-face {
+    font-family: "corpo";
+    src: url("fonts/carolingia.ttf");
+}
+@font-face {
+    font-family: "bah";
+    src: url("fonts/Elementary_Gothic_Bookhand.ttf");
+}
+@font-face {
+    font-family: "vampiro";
+    src: url("fonts/Steravina.ttf");
+}
+
+*{
+    font-family: "vampiro";
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+form{
+    padding: 20px;
+    border: 1px solid black;
+    width: 270px;
+}
+
+form input{
+    margin-bottom: 15px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 250px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: white;
+    font-family: "vampiro";
+}
+
+input[type="submit"]:hover {
+    color: brown;
+}
+
+select{
+    border: none;
+    width: 250px;
+    font-family: "vampiro";
+}
+
+option:hover{
+    color: brown;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+}
+
+a.links_:hover{
+    font-weight: bold;
+}
+
+h1{
+    padding: 20px;
+}
+
+.links{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+nav{
+    width: 900px;
+}
+
+.text{
+    padding: 20px;
+    border: 1px solid black;
+    width: 600px;
+}
+
+p#text_justificativa{
+    text-align: justify;
+}
+
+table{
+    padding: 20px;
+    width: 400px;
+}
+
+nav, form, .links, .text, table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    width: 250px;
+}
+
+th{
+    font-size: 20px;
+    border: none;
+}
